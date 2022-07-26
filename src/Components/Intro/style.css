@@ -1,0 +1,81 @@
+.intro-container {
+    display: flex;
+    margin-top: 6rem;
+    padding: 0 3.5rem;
+}
+
+.intro-esquerda {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 2rem;
+    position: relative;
+}
+
+.intro-direita {
+    display: flex;
+    flex: 1;
+}
+
+.intro-nome {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-nome span:nth-child(1) {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-nome span:nth-child(2) {
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.intro-nome span:nth-child(3) {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.intro-icons {
+    display: flex;
+    padding: 0 0.5rem;
+    gap: 2rem;
+}
+
+.intro-icons img {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.perfil {
+    transform: scale(1.5);
+}
+
+.glassesimoji {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.full-stack {
+    position: absolute;
+    top: 70%;
+    right: 60%;
+
+}
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(3.6rem);
+    z-index: -1;
+}

@@ -1,0 +1,178 @@
+.tecnologias {
+    width: 100vw;
+    display: flex;
+    padding: 2rem 3.5rem;
+    margin-top: 6rem;
+}
+
+.tecnologias .esquerda {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+
+.tecnologias .direita {
+    display: flex;
+    flex: 7;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.tecnologias .esquerda span:nth-child(1) {
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tecnologias .esquerda span:nth-child(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tecnologias .esquerda span:nth-child(3) {
+    color: var(--gray);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+.s-button {
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.indicador-html {
+    width: 6.5rem;
+    height: 0.1rem;
+    transform: rotate(-25deg);
+    position: absolute;
+    top: 9rem;
+    left: 41rem;
+}
+
+.modal-html {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 4rem;
+    left: 47rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.indicador-react {
+    width: 14rem;
+    height: 0.1rem;
+    transform: rotate(-15deg);
+    position: absolute;
+    top: 26rem;
+    left: 34rem;
+}
+
+.modal-react {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 27.5rem;
+    left: 26.5rem;
+    font-size: 0.8rem;
+
+}
+
+.indicador-js {
+    width: 8rem;
+    height: 0.1rem;
+    transform: rotate(-16deg);
+    position: absolute;
+    top: 12rem;
+    left: 64rem;
+}
+
+.modal-js {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 9.5rem;
+    left: 71.7rem;
+}
+
+.indicador-node {
+    width: 8rem;
+    height: 0.1rem;
+    transform: rotate(16deg);
+    position: absolute;
+    top: 35rem;
+    left: 64rem;
+}
+
+.modal-node {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 36rem;
+    left: 71.5rem;
+}
+
+.indicador-ts {
+    width: 8rem;
+    height: 0.1rem;
+    transform: rotate(35deg);
+    position: absolute;
+    top: 38.5rem;
+    left: 54rem;
+}
+
+.modal-ts {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 40.6rem;
+    left: 61rem;
+}
+
+.indicador-sql {
+    width: 8rem;
+    height: 0.1rem;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 33rem;
+    left: 31rem;
+}
+
+.modal-sql {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 35.3rem;
+    left: 23.8rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+.indicador-ex {
+    width: 8rem;
+    height: 0.1rem;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 16rem;
+    left: 72rem;
+}
+
+.modal-ex {
+    width: 8rem;
+    background: white;
+    border: 3px solid black;
+    position: absolute;
+    top: 12.2rem;
+    left: 79.1rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}

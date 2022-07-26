@@ -1,0 +1,42 @@
+.navbar-container {
+    width: 100vw;
+    display: flex;
+    padding: 0.5rem 3.5rem;
+}
+
+.navbar-esquerda {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    gap: 2rem;
+}
+
+.navbar-direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    flex: 1;
+    padding: 0 0 0 20rem;
+    gap: 3rem;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navbar-nome {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.navbar-container li {
+    cursor: pointer;
+}
+
+.navbar-container li:hover {
+    color: var(--orange);
+}

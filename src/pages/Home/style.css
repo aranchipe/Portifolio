@@ -1,0 +1,6 @@
+.Home {
+    padding: 0.5rem 0;
+    overflow: hidden;
+    color: var(--black);
+    min-height: 100vh;
+}

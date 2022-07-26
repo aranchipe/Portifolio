@@ -1,0 +1,26 @@
+.card {
+    width: 11rem;
+    height: 14.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 80px;
+}
+
+.html img {
+    width: 150px;
+}
+
+.texto {
+    padding: 0.5rem;
+}

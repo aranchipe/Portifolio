@@ -1,3 +1,11 @@
+html {
+  font-size: 125%;
+}
+
+#root {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +18,40 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --yellow: #2c7cf5;
+  --orange: rgb(31, 86, 252);
+  --black: #242D49;
+  --gray: #788097;
+  --blueCard: #DDF8FE;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(31, 75, 252, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 26px;
+  background: linear-gradient(180deg, #0f8efd 26.71%, #362ffb 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(57, 40, 251, 0.42);
+  cursor: pointer;
+}
+
+.button:hover {
+  background: white;
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
