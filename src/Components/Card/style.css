@@ -44,14 +44,17 @@
     .card {
         width: 7rem;
         height: 9.1rem;
+        padding: 0 .5rem;
     }
 
     .texto span {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
+        line-height: 0.6rem;
     }
 
     .texto li {
-        font-size: 0.55rem;
+        font-size: 0.5rem;
+        margin: 0 auto;
     }
 
     .texto ul {

@@ -77,6 +77,12 @@
         display: none;
     }
 
+    @keyframes portfolio {
+        to {
+            transform: scale(1);
+        }
+    }
+
     .portfolio-slider-mobile {
         display: block;
         margin-bottom: -7rem;
