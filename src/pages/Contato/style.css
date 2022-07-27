@@ -31,7 +31,6 @@
 
 .c-right {
     display: flex;
-    justify-content: start;
     position: relative;
     flex: 3;
 
