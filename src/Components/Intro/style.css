@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.i-button {
+    width: 7.5rem;
+}
+
 .perfil {
     transform: scale(1.5);
 }
@@ -78,4 +82,30 @@
     border-radius: 50%;
     filter: blur(3.6rem);
     z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .intro-container {
+        flex-direction: column-reverse;
+        padding: 0 1.5rem;
+        margin-top: 0;
+        margin-bottom: -17rem;
+    }
+
+
+    .intro-direita {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .perfil {
+        transform: scale(0.7);
+    }
+
+    .glassesimoji,
+    .full-stack,
+    .developer,
+    .blur {
+        display: none;
+    }
 }

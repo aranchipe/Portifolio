@@ -1,0 +1,132 @@
+.s-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-x: hidden;
+}
+
+.s-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-heading {
+    align-items: center;
+    align-self: start;
+    margin-bottom: 8rem;
+    padding: 0 6.5rem 2rem 6.5rem;
+
+}
+
+.s-heading>* {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.s-heading span:nth-child(2) {
+    color: var(--orange);
+}
+
+.s-blur3 {
+    left: 60rem;
+    top: 35rem;
+}
+
+.s-blur2 {
+    left: 10rem;
+    top: 15rem;
+}
+
+.card-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    width: 30rem;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    position: relative;
+}
+
+.camp-bras {
+    position: absolute;
+    left: 35rem;
+    top: 0;
+    transform: rotate(7deg);
+}
+
+.camp-lpo {
+    position: absolute;
+    left: -15rem;
+    top: -5rem;
+    transform: rotate(3deg);
+}
+
+.cubos {
+    position: absolute;
+    left: -10rem;
+    top: 20rem;
+    transform: rotate(-9deg);
+}
+
+.foto-sobre {
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid var(--blueCard);
+}
+
+.card-sobre span {
+    color: var(--gray);
+}
+
+.campeonato-brasileiro {
+    position: absolute;
+    left: 35rem;
+    top: 0rem;
+    transform: rotate(7deg)
+}
+
+@media screen and (max-width: 480px) {
+    .s-heading {
+        padding: 1.5rem 1.5rem;
+    }
+
+    .card-sobre {
+        padding: 2rem;
+        width: 20rem;
+        margin-bottom: 5rem;
+    }
+
+    .card-sobre span {
+        font-size: 0.7rem;
+    }
+
+    .camp-bras {
+        position: absolute;
+        left: 14.5rem;
+        top: -7rem;
+        transform: rotate(-7deg);
+    }
+
+    .camp-lpo {
+        position: absolute;
+        left: 0rem;
+        top: -6rem;
+        transform: rotate(7deg);
+    }
+
+    .cubos {
+        position: absolute;
+        left: 0rem;
+        top: 27rem;
+        transform: rotate(-9deg);
+    }
+}

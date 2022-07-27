@@ -6,10 +6,11 @@ import glassesimoji from '../../img/glassesimoji.png'
 import Floatingdiv from '../Floatingdiv'
 import crown from '../../img/crown.png'
 import devIcon from '../../img/devIcon.png'
+import { useNavigate } from 'react-router-dom'
 
 
 function Intro({ escuro }) {
-
+    const navigate = useNavigate()
     return (
         <div className='intro-container'>
             <div className="intro-esquerda">
@@ -21,7 +22,7 @@ function Intro({ escuro }) {
                         e estou em busca de oportunidades de
                         mostrar do que sou capaz</span>
                 </div>
-                <a href='#contato'><button className=' button i-button'>Me contrate</button></a>
+                <button onClick={() => navigate('/contato')} className=' button i-button'>Me contrate</button>
                 <div className="intro-icons">
                     <a target='blank' href='https://github.com/aranchipe'>
                         <img src={bluegithub} alt='github' />

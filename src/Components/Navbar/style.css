@@ -2,13 +2,13 @@
     width: 100vw;
     display: flex;
     padding: 0.5rem 3.5rem;
+    height: 10vh;
+    justify-content: space-between;
 }
 
 .navbar-esquerda {
-    flex: 1;
     display: flex;
     align-items: center;
-    padding: 0.5rem 0;
     gap: 2rem;
 }
 
@@ -16,9 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
-    flex: 1;
-    padding: 0 0 0 20rem;
     gap: 3rem;
 }
 
@@ -29,7 +26,7 @@
 }
 
 .navbar-nome {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
@@ -39,4 +36,72 @@
 
 .navbar-container li:hover {
     color: var(--orange);
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img {
+    width: 4rem;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar-container {
+        flex-direction: column;
+        padding: 3rem 0;
+        height: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-esquerda {
+        gap: 1rem;
+        margin-bottom: 1rem;
+        width: 100vw;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        padding: 0 1rem;
+    }
+
+    .navbar-direita {
+        gap: 1rem;
+    }
+
+    .navbar-direita button {
+        border-radius: 34px;
+        border: none;
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.45rem 1rem;
+        background: linear-gradient(180deg, #0f8efd 26.71%, #362ffb 99.36%);
+        box-shadow: 0px 20px 24px 3px rgba(57, 40, 251, 0.42);
+        cursor: pointer;
+    }
+
+    .navbar-container ul {
+        gap: 1rem;
+    }
+
+    .navbar-nome {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+
+    .navbar-container li {
+        cursor: pointer;
+        font-size: 0.75rem;
+    }
+
+    .navbar-container li:hover {
+        color: var(--orange);
+    }
+
+    .logo-img {
+        width: 3rem;
+    }
 }

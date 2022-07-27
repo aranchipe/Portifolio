@@ -13,14 +13,48 @@
     cursor: pointer;
 }
 
+.texto li {
+    margin-left: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.texto span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 .card img {
     width: 80px;
+}
+
+.card span {
+    font-weight: bold;
+}
+
+.card ul {
+    margin-left: 1rem;
 }
 
 .html img {
     width: 150px;
 }
 
-.texto {
-    padding: 0.5rem;
+@media screen and (max-width: 480px) {
+    .card {
+        width: 7rem;
+        height: 9.1rem;
+    }
+
+    .texto span {
+        font-size: 0.6rem;
+    }
+
+    .texto li {
+        font-size: 0.55rem;
+    }
+
+    .texto ul {
+        margin-top: 0.5rem;
+    }
 }

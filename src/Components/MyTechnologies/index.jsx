@@ -18,11 +18,13 @@ function MyTechnologies({ escuro }) {
     return (
         <div className='tecnologias'>
             <div className="esquerda">
-                {escuro ? <span style={{ color: 'white' }}>My Awesome</span> : <span>My Awesome</span>}
-                <span>services</span>
-                <span>Lorem ipsum dolasdor sit amet, consectetur adipisicing eli
+                {escuro ? <span style={{ color: 'white' }}>Minhas</span> : <span>Minhas</span>}
+                <span>Tecnologias</span>
+                <span style={escuro ? { color: 'white' } : { color: 'var(--gray)' }}>Todas aprendidas no curso de
                     <br />
-                    iusto cumque vel quos ad quod ali.</span>
+                    Desenvolvimento de Software da Cubos Academy. <br />
+                    Estou em constante aprendizado sempre estudando <br />
+                    para obter mais conhecimento. <br /> No momento estou estudando TypeScript.</span>
                 <a style={{ width: '8rem' }} href={curriculo} download>
                     <button className='button s-button'>Download CV</button>
                 </a>
@@ -37,9 +39,10 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'}
                         title={'React'}
                         modal={modalReact}
-                        txt='Reutilização de código através da criação de componentes, criação de rotas
-                        com o react-router-dom, escrita de códigos reativos, utilização de hooks -
-                        useState, useEffect.  "Utilizado para criar este Portfólio"'
+                        txt1='Reutilização de código através da criação de componentes'
+                        txt2='criação de rotas com o react-router-dom'
+                        txt3='escrita de códigos reativos'
+                        txt4='utilização de hooks - useState, useEffect.'
                     />
 
                 </div>
@@ -50,10 +53,10 @@ function MyTechnologies({ escuro }) {
                     <Card
                         image={htmlCss}
                         title={'HTML + CSS'}
-                        html='html'
+                        html={true}
                         modal={modalHtml}
-                        txt='Organização da estrutua e do conteúdo de um site
-                        e estilização do mesmo de forma fluida e responsiva.'
+                        txt1='Organização da estrutura e do conteúdo de um site'
+                        txt2='Estilização do mesmo de forma fluida e responsiva'
                     />
                 </div>
 
@@ -63,7 +66,8 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'}
                         title={'JavaScript'}
                         modal={modalJs}
-                        txt='Linguagem utilizada para a criação de APIs e para manipulação da DOM'
+                        semPonto={true}
+                        txt1='Linguagem utilizada para a criação de APIs e para manipulação da DOM'
                     />
                 </div>
 
@@ -72,7 +76,8 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'}
                         title={'TypeScript'}
                         modal={modalTs}
-                        txt='Estudando...'
+                        semPonto={true}
+                        txt1='Estudando...'
                     />
                 </div>
 
@@ -82,8 +87,10 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'}
                         title={'PostgreSQL'}
                         modal={modalSql}
-                        txt='Criação de tabelas, inserir, atualizar e deletar dados, executar o CRUD,
-                        fazendo a comunicação com o backend através de ferramentas como o "Axios".'
+                        txt1='Criação de tabelas'
+                        txt2='Inserir, atualizar e deletar dados'
+                        txt3='Executar o CRUD'
+                        txt4='Comunicação com o backend através de ferramentas como o "Axios"'
                     />
                 </div>
 
@@ -93,8 +100,10 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'}
                         title={'Node js'}
                         modal={modalNode}
-                        txt='Criação de API Rest, Autenticação com JWT, criptografia com SecurePassword,
-                        criação de middlewares.'
+                        txt1='Criação de API Rest'
+                        txt2='Autenticação com JWT'
+                        txt3='criptografia com SecurePassword'
+                        txt4='criação de middlewares'
                     />
                 </div>
 
@@ -104,7 +113,8 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'}
                         title={'Express'}
                         modal={modalEx}
-                        txt='Criação de Api do zero desde a instalação do express até a criação
+                        semPonto={true}
+                        txt1='Criação de Api do zero desde a instalação do express até a criação
                         de rotas utilizando os verbos HTTP.'
                     />
                 </div>
@@ -114,7 +124,8 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'}
                         title={'Figma'}
                         modal={modalFigma}
-                        txt='Visualização de layouts a fim de reproduzi-los com fidelidade.'
+                        semPonto={true}
+                        txt1='Visualização de layouts a fim de reproduzi-los com fidelidade.'
                     />
                 </div>
 
@@ -123,7 +134,9 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'}
                         title={'Git'}
                         modal={modalGit}
-                        txt='Versionamento, Fluxo de trabalho, criação e mesclagem de branchs, pull request...'
+                        txt1='Versionamento'
+                        txt2='Criação e mesclagem de branchs'
+                        txt3='Pull request...'
                     />
                 </div>
 
@@ -132,7 +145,6 @@ function MyTechnologies({ escuro }) {
                         image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'}
                         title={'Github'}
                         modal={modalGithub}
-                        txt='Versionamento, Fluxo de trabalho, criação e mesclagem de branchs, pull request...'
                     />
                 </div>
 
