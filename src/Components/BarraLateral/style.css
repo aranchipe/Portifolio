@@ -26,6 +26,11 @@
         animation: barra-fechada 0.5s both;
     }
 
+    .barra-sumida {
+        display: none;
+    }
+
+
     .barra-aberta {
         animation: barra-aberta 0.5s both;
     }

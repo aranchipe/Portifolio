@@ -11,7 +11,7 @@ function BarraLateral({ page, barra, setBarra, escuro }) {
     const navigate = useNavigate()
 
     return (
-        <div onMouseLeave={() => setBarra(false)} className={barra ? 'barra barra-aberta' : ' barra barra-fechada'}>
+        <div onMouseLeave={() => setBarra(false)} className={barra === true ? 'barra barra-aberta' : barra === false ? ' barra barra-fechada' : 'barra-sumida'}>
             <ul>
                 <li
                     style={page === 'home' ? { color: 'black' } : { color: 'white' }}

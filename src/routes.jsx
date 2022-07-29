@@ -9,7 +9,7 @@ import Contato from './pages/Contato';
 
 function MainRoutes() {
     const [escuro, setEscuro] = useState(true)
-    const [barra, setBarra] = useState(false)
+    const [barra, setBarra] = useState(null)
 
 
     return (
