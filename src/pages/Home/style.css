@@ -3,3 +3,23 @@
     color: var(--black);
     min-height: 100vh;
 }
+
+.menu {
+    display: none;
+}
+
+.menu-sumindo {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .menu-sumindo {
+        animation: sumindo 0.2s both;
+    }
+
+    @keyframes sumindo {
+        to {
+            opacity: 0;
+        }
+    }
+}

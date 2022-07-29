@@ -1,0 +1,104 @@
+.menu {
+    display: none;
+}
+
+.barra {
+    display: none;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .barra {
+        position: fixed;
+        padding: 2rem 0;
+        display: flex;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 100vw;
+        min-height: 100vh;
+        background: linear-gradient(180deg, #0f8efd 26.71%, #362ffb 99.36%);
+        background-image: url('../../img/fundo-menu.png');
+    }
+
+    .barra-fechada {
+        animation: barra-fechada 0.5s both;
+    }
+
+    .barra-aberta {
+        animation: barra-aberta 0.5s both;
+    }
+
+
+    .barra ul {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem;
+        gap: 0;
+    }
+
+    .barra li {
+        font-size: 20px;
+        border-radius: 0.2rem;
+        padding: .2rem 1.5rem;
+        width: 100vw;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+
+    .barra li img {
+        width: 2rem;
+    }
+
+    .close {
+        width: 2rem;
+        top: 1.5rem;
+        left: 85vw;
+        position: absolute;
+    }
+
+    .icones {
+        background-color: white;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu-sumindo {
+        display: block;
+    }
+
+    @keyframes barra-aberta {
+        0% {
+            left: -100vw;
+        }
+
+        100% {
+            left: 0;
+        }
+    }
+
+    @keyframes barra-fechada {
+        0% {
+            left: 0;
+        }
+
+        100% {
+            left: -100vw;
+        }
+    }
+}

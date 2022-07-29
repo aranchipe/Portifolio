@@ -4,7 +4,7 @@ import Navbar from '../../Components/Navbar'
 import MyTechnologies from '../../Components/MyTechnologies'
 import Footer from '../../Components/Footer'
 
-function Tecnologias({ escuro, setEscuro }) {
+function Tecnologias({ escuro, setEscuro, barra, setBarra }) {
 
     return (
         <div className='tecnologias-page' style={escuro === true ? {
@@ -14,7 +14,7 @@ function Tecnologias({ escuro, setEscuro }) {
             background: '',
             color: ''
         }}>
-            <Navbar page='tecnologias' escuro={escuro} setEscuro={setEscuro} />
+            <Navbar barra={barra} setBarra={setBarra} page='tecnologias' escuro={escuro} setEscuro={setEscuro} />
             <MyTechnologies escuro={escuro} />
             <div style={{ overflowY: 'hidden', marginTop: '10rem' }}>
                 <Footer />

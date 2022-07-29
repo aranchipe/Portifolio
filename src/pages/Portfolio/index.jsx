@@ -3,7 +3,7 @@ import Navbar from '../../Components/Navbar'
 import MyPortfolio from '../../Components/MyPortfolio'
 import Footer from '../../Components/Footer'
 
-function Portfolio({ escuro, setEscuro }) {
+function Portfolio({ escuro, setEscuro, barra, setBarra }) {
     return (
         <div className='portfolio-page' style={escuro === true ? {
             background: 'black',
@@ -12,9 +12,11 @@ function Portfolio({ escuro, setEscuro }) {
             background: '',
             color: ''
         }}>
-            <Navbar page='portfolio' escuro={escuro} setEscuro={setEscuro} />
+            <Navbar barra={barra} setBarra={setBarra} page='portfolio' escuro={escuro} setEscuro={setEscuro} />
 
-            <MyPortfolio escuro={escuro} setEscuro={setEscuro} />
+
+            <MyPortfolio escuro={escuro} setEscuro={setEscuro}
+            />
             <div style={{ overflowY: 'hidden', marginTop: '10rem' }}>
                 <Footer />
             </div>

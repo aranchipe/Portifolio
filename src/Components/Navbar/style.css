@@ -1,9 +1,17 @@
 .navbar-container {
     width: 100vw;
     display: flex;
-    padding: 0.5rem 3.5rem;
+    padding: 3rem 3.5rem;
     height: 10vh;
     justify-content: space-between;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-sumindo {
+    display: none;
 }
 
 .navbar-esquerda {
@@ -43,6 +51,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .logo-img {
@@ -52,7 +61,7 @@
 @media screen and (max-width: 480px) {
     .navbar-container {
         flex-direction: column;
-        padding: 3rem 0;
+        padding: 0;
         height: 10vh;
         justify-content: center;
         align-items: center;
@@ -65,11 +74,11 @@
         justify-content: space-between;
         margin-top: 2.5rem;
         margin-bottom: 2rem;
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 
     .navbar-direita {
-        gap: 1rem;
+        display: none;
     }
 
     .navbar-direita button {
@@ -103,5 +112,20 @@
 
     .logo-img {
         width: 3rem;
+    }
+
+
+    /* .menu {
+        display: block;
+    } */
+
+    .menu-sumindo {
+        animation: sumindo 0.2s both;
+    }
+
+    @keyframes sumindo {
+        to {
+            opacity: 0;
+        }
     }
 }

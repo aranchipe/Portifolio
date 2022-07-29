@@ -6,7 +6,7 @@ import me2 from '../../img/me2.jpeg'
 import Retrato from '../../Components/Retrato'
 import Navbar from '../../Components/Navbar'
 import Footer from '../../Components/Footer'
-function Sobre({ escuro, setEscuro }) {
+function Sobre({ escuro, setEscuro, barra, setBarra }) {
     return (
         <div className='s-container' style={escuro === true ? {
             background: 'black',
@@ -19,7 +19,10 @@ function Sobre({ escuro, setEscuro }) {
                 escuro={escuro}
                 setEscuro={setEscuro}
                 page='sobre'
+                barra={barra}
+                setBarra={setBarra}
             />}
+
             <div className="s-content">
 
                 <div className="s-heading">
@@ -64,6 +67,8 @@ function Sobre({ escuro, setEscuro }) {
                     </div>
                 </div>
             </div>
+
+
             <div style={{ overflowY: 'hidden' }}>
                 <Footer />
             </div>

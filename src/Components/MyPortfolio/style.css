@@ -1,10 +1,10 @@
 .portfolio {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 5rem;
+    position: relative;
+    padding: 5rem 0;
 }
 
 .portfolio-slider-mobile {
@@ -24,23 +24,24 @@
     margin-bottom: 5rem;
 }
 
-.portfolio .swiper {
-    overflow: visible !important;
-}
-
-.portfolio-slider {
-    margin-top: 3rem;
-    width: 57%;
-}
-
-.portfolio-slider .swiper-slide {
-    width: 20rem;
-}
-
 .portfolio img {
     width: 19rem;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
+    cursor: pointer;
+}
+
+.portfolio video {
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+}
+
+.portfolio-escuro img {
+    filter: drop-shadow(-12px 15px 13px rgba(255, 255, 255, 0.25)) !important;
+
+}
+
+.portfolio-escuro video {
+    filter: drop-shadow(-12px 15px 13px rgba(255, 255, 255, 0.25)) !important;
 }
 
 .portfolio img:hover {
@@ -51,7 +52,7 @@
     display: flex;
     justify-content: center;
     width: 19rem;
-    gap: 20px;
+    gap: 10px;
 }
 
 .link div {
@@ -66,6 +67,45 @@
     color: white;
 }
 
+.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    gap: 2rem;
+}
+
+.video-btn {
+    cursor: pointer;
+}
+
+.video img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.carrossel {
+    display: flex;
+    width: 40rem;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    border-radius: 19px;
+}
+
+.carrossel-body {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
 @keyframes portfolio {
     to {
         transform: scale(1.1);
@@ -73,9 +113,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .portfolio-slider {
-        display: none;
-    }
+
 
     @keyframes portfolio {
         to {
@@ -83,12 +121,18 @@
         }
     }
 
-    .portfolio-slider-mobile {
+    .carrossel-body {
+        display: none;
+    }
+
+    .portfolio-mobile {
         display: block;
         margin-bottom: -7rem;
     }
 
-    .portfolio-slider-mobile div {
+    .portfolio-mobile div {
         margin-bottom: 1.5rem;
     }
+
+    .video-mobile {}
 }

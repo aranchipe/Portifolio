@@ -3,13 +3,28 @@ import Toggle from '../Toggle'
 import { useNavigate } from 'react-router-dom'
 import logoClaro from '../../img/logo4.png'
 import logoEscuro from '../../img/logo5.png'
+import menuPreto from '../../img/menu-preto.png'
+import menuBranco from '../../img/menu-branco.png'
 
-function Navbar({ escuro, setEscuro, page }) {
+import { useState } from 'react'
+import BarraLateral from '../BarraLateral'
+
+
+function Navbar({ escuro, setEscuro, page, barra, setBarra }) {
     const navigate = useNavigate()
     return (
         <div className='navbar-container'>
             <div className="navbar-esquerda">
-                <div className='logo'>
+                <img onClick={() => setBarra(true)} src={escuro ? menuBranco : menuPreto} alt='menu-preto' className={barra ? 'menu-sumindo' : 'menu'} />
+
+                < BarraLateral
+                    barra={barra}
+                    setBarra={setBarra}
+                    page={page}
+                    escuro={escuro}
+                />
+
+                <div className={barra ? 'logo logo-barra-aberta' : 'logo'}>
                     <img className='logo-img' src={escuro ? logoEscuro : logoClaro} alt='logo' />
                     <div className="navbar-nome">Lucas Aranchipe</div>
                 </div>

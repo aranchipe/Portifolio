@@ -3,7 +3,7 @@ import Navbar from '../../Components/Navbar'
 import Intro from '../../Components/Intro'
 import Footer from '../../Components/Footer';
 
-function Home({ escuro, setEscuro }) {
+function Home({ escuro, setEscuro, barra, setBarra }) {
     return (
         <div className={escuro ? 'Home fundo-escuro' : 'Home fundo-claro'} style={escuro === true ? {
 
@@ -17,6 +17,8 @@ function Home({ escuro, setEscuro }) {
                 escuro={escuro}
                 setEscuro={setEscuro}
                 page='home'
+                barra={barra}
+                setBarra={setBarra}
             />
             <Intro escuro={escuro} />
             <div style={{ marginTop: '20rem' }}>

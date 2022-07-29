@@ -5,7 +5,7 @@ import '../../pages/Home/style.css'
 import Navbar from '../../Components/Navbar';
 import Footer from '../../Components/Footer'
 
-function Contato({ escuro, setEscuro }) {
+function Contato({ escuro, setEscuro, barra, setBarra }) {
     const form = useRef();
     const [form1, setForm1] = useState({
         user_name: '',
@@ -49,7 +49,8 @@ function Contato({ escuro, setEscuro }) {
             background: '',
             color: ''
         }}>
-            <Navbar escuro={escuro} setEscuro={setEscuro} />
+            <Navbar page='contato' barra={barra} setBarra={setBarra} escuro={escuro} setEscuro={setEscuro} />
+
             <div className="contato-content">
                 <div className="c-left">
                     {escuro ? <span style={{ color: 'white' }}>Fale</span> : <span>Fale</span>}
@@ -95,6 +96,8 @@ function Contato({ escuro, setEscuro }) {
                     </form>
                 </div>
             </div>
+
+
             <div style={{ overflowY: 'hidden', marginTop: '4rem' }}>
                 <Footer />
 
