@@ -82,7 +82,7 @@ function MyPortfolio({ escuro }) {
                             controls
                             preload='auto'
                             width='380'
-                            height='220'
+                        /* height='220' */
                         >
                             <source src={item.video} type='video/mp4'></source>
                         </video>
