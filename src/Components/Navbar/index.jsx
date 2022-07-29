@@ -5,8 +5,6 @@ import logoClaro from '../../img/logo4.png'
 import logoEscuro from '../../img/logo5.png'
 import menuPreto from '../../img/menu-preto.png'
 import menuBranco from '../../img/menu-branco.png'
-
-import { useState } from 'react'
 import BarraLateral from '../BarraLateral'
 
 

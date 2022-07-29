@@ -1,7 +1,5 @@
 import './style.css'
 import { useNavigate } from 'react-router-dom'
-import closePreto from '../../img/close-preto.png'
-import closeBranco from '../../img/close-branco.png'
 import casa from '../../img/casa.png'
 import react from '../../img/react.png'
 import portfolio from '../../img/portfolio.png'
