@@ -7,12 +7,12 @@ import mario from '../img/mario.png'
 import dinDin from '../img/din-din.JPG'
 
 import projetoFinalVideo from '../videos/projeto-final.mp4'
-import cubosFlixVideo from '../videos/cubosflix.mkv'
-import dinDinVideo from '../videos/din-din.mkv'
+import cubosFlixVideo from '../videos/cubosflix.mp4'
+import dinDinVideo from '../videos/din-din.mp4'
 import cubosPlayerVideo from '../videos/cubos-player.mp4'
-import weAreCriativesVideo from '../videos/we-are-criatives.mkv'
-import desafio1Video from '../videos/desafio1.mkv'
-import marioVideo from '../videos/mario.mkv'
+import weAreCriativesVideo from '../videos/we-are-criatives.mp4'
+import desafio1Video from '../videos/desafio1.mp4'
+import marioVideo from '../videos/mario.mp4'
 export const projetos = [
     {
         id: 1,
