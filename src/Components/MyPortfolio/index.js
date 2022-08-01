@@ -1,34 +1,34 @@
 import './style.css'
-import { useState, useRef } from 'react'
+/* import { useState, useRef } from 'react'
 import closePreto from '../../img/close-preto-redondo.png'
 import closeBranco from '../../img/close-branco-redondo.png'
 import setaDireitaPreta from '../../img/seta-direita-preta.png'
 import setaDireitaBranca from '../../img/seta-direita-branca.png'
 import setaEsquerdaPreta from '../../img/seta-esquerda-preta.png'
-import setaEsquerdaBranca from '../../img/seta-esquerda-branca.png'
+import setaEsquerdaBranca from '../../img/seta-esquerda-branca.png' */
 import { projetos } from '../../projects/projetos'
 
 function MyPortfolio({ escuro }) {
-    const [mostrarVideo, setMostrarVideo] = useState(false)
-    const [video, setVideo] = useState()
-    const carrossel = useRef(null)
-
-    function handleAntes(e) {
-        e.preventDefault()
-        carrossel.current.scrollLeft -= 760
-    }
-    function handleProximo(e) {
-        e.preventDefault()
-        carrossel.current.scrollLeft += 760
-
-    }
+    /*  const [mostrarVideo, setMostrarVideo] = useState(false)
+     const [video, setVideo] = useState()
+     const carrossel = useRef(null)
+ 
+     function handleAntes(e) {
+         e.preventDefault()
+         carrossel.current.scrollLeft -= 760
+     }
+     function handleProximo(e) {
+         e.preventDefault()
+         carrossel.current.scrollLeft += 760
+ 
+     } */
 
     return (
         <div className={escuro ? 'portfolio portfolio-escuro' : 'portfolio'} >
             {escuro ? <span style={{ color: 'white' }}>Projetos Recentes</span> : <span>Projetos Recentes</span>}
             <span>Portfólio</span>
 
-            {mostrarVideo &&
+            {/* {mostrarVideo &&
                 <div className='video'>
                     <video
                         id='my-player'
@@ -41,9 +41,9 @@ function MyPortfolio({ escuro }) {
                     </video>
                     <img onClick={() => setMostrarVideo(false)} src={!escuro ? closePreto : closeBranco} alt='close' />
                 </div>
-            }
+            } */}
 
-            <div className='carrossel-body'>
+            {/* <div className='carrossel-body'>
                 <img style={{ width: '30px', cursor: 'pointer', marginBottom: '2rem' }} onClick={handleAntes} src={escuro ? setaEsquerdaBranca : setaEsquerdaPreta} alt='antes' />
                 <div className='carrossel' ref={carrossel}>
                     {projetos.map((item) => (
@@ -72,7 +72,7 @@ function MyPortfolio({ escuro }) {
 
                 </div>
                 <img style={{ width: '30px', cursor: 'pointer', marginBottom: '2rem' }} onClick={handleProximo} src={escuro ? setaDireitaBranca : setaDireitaPreta} alt='proximo' />
-            </div>
+            </div> */}
 
             <div className='portfolio-mobile'>
                 {projetos.map((item) => (
