@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 125%;
 }
@@ -33,11 +39,6 @@ code {
 }
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .button {
   border-radius: 34px;
