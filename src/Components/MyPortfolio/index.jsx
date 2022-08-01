@@ -83,6 +83,7 @@ function MyPortfolio({ escuro }) {
                             preload='auto'
                             width='380'
                             height='220'
+                            poster={item.src}
                         >
                             <source src={item.video} type='video/mp4'></source>
                         </video>
