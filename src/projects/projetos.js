@@ -6,7 +6,7 @@ import desafio1 from '../img/desafio1.jpg'
 import mario from '../img/mario.png'
 import dinDin from '../img/din-din.JPG'
 
-import projetoFinalVideo from '../videos/projeto-final.mkv'
+import projetoFinalVideo from '../videos/projeto-final.mp4'
 import cubosFlixVideo from '../videos/cubosflix.mkv'
 import dinDinVideo from '../videos/din-din.mkv'
 import cubosPlayerVideo from '../videos/cubos-player.mp4'
