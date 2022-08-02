@@ -10,7 +10,7 @@
     display: none;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 900px) {
     .barra {
         position: fixed;
         padding: 2rem 0;
@@ -73,8 +73,8 @@
     .icones {
         background-color: white;
         border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
         display: flex;
         align-items: center;
         justify-content: center;

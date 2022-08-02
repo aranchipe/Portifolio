@@ -1,5 +1,5 @@
 .portfolio-page {
-    min-height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     overflow-x: hidden;
 }

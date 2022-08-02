@@ -23,7 +23,7 @@
     font-size: 0.7rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .retrato {
         padding: 0.3rem;
         width: 5rem;

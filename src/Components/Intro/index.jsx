@@ -1,12 +1,16 @@
 import './style.css'
 import bluelinkedin from '../../img/blue-linkedin.png'
 import bluegithub from '../../img/blue-github.png'
+import bluewpp from '../../img/blue-wpp.png'
 import avatar from '../../img/avatar.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import Floatingdiv from '../Floatingdiv'
 import crown from '../../img/crown.png'
 import devIcon from '../../img/devIcon.png'
 import { useNavigate } from 'react-router-dom'
+import Whatsapp from '@iconscout/react-unicons/icons/uil-whatsapp'
+import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
+import GitHub from '@iconscout/react-unicons/icons/uil-github'
 
 
 function Intro({ escuro }) {
@@ -25,10 +29,13 @@ function Intro({ escuro }) {
                 <button onClick={() => navigate('/contato')} className=' button i-button'>Me contrate</button>
                 <div className="intro-icons">
                     <a target='blank' href='https://github.com/aranchipe'>
-                        <img src={bluegithub} alt='github' />
+                        <GitHub color='var(--orange)' size='4rem' />
                     </a>
                     <a target='blank' href='https://www.linkedin.com/in/lucas-aranchipe/'>
-                        <img src={bluelinkedin} alt='linkedin' />
+                        <Linkedin color='var(--orange)' size='4rem' />
+                    </a>
+                    <a target='blank' href='https://api.whatsapp.com/send?phone=5571999666438'>
+                        <Whatsapp color='var(--orange)' size='4rem' />
                     </a>
 
                 </div>

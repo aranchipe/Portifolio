@@ -23,7 +23,7 @@ function Home({ escuro, setEscuro, barra, setBarra }) {
             <Intro escuro={escuro} />
             <div style={{ marginTop: '20rem' }}>
 
-                <Footer />
+                <Footer escuro={escuro} />
             </div>
         </div>
     );

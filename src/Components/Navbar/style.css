@@ -1,8 +1,8 @@
 .navbar-container {
     width: 100vw;
     display: flex;
-    padding: 3rem 3.5rem;
-    height: 10vh;
+    padding: 1rem 2rem;
+    height: auto;
     justify-content: space-between;
 }
 
@@ -58,7 +58,7 @@
     width: 4rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .navbar-container {
         flex-direction: column;
         padding: 0;

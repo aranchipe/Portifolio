@@ -1,24 +1,27 @@
 import './style.css'
-import bluewave from '../../img/blue-wave.png'
 import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin'
 import GitHub from '@iconscout/react-unicons/icons/uil-github'
+import Whatsapp from '@iconscout/react-unicons/icons/uil-whatsapp'
 
-function Footer() {
+function Footer({ escuro }) {
     return (
-        <div className='footer'>
-            <img src={bluewave} alt='wave' style={{ width: '100%' }} />
-            <div className="f-content">
-                <span>aranchipe98@gmail.com</span>
-                <div className="f-icons">
-                    <a target='blank' href='https://www.linkedin.com/in/lucas-aranchipe/'>
-                        <Linkedin color='white' size='3rem' />
+        <div className="footer">
+            <div className='made'>
+                <span style={{ color: 'white', fontWeight: 'bold' }}>Made by</span>
+                <span>Lucas Leite Aranchipe</span>
+            </div>
+            <div className="f-icons">
+                <a target='blank' href='https://www.linkedin.com/in/lucas-aranchipe/'>
+                    <Linkedin color='white' size='3rem' />
 
-                    </a>
-                    <a target='blank' href='https://github.com/aranchipe'>
+                </a>
+                <a target='blank' href='https://github.com/aranchipe'>
+                    <GitHub color='white' size='3rem' />
+                </a>
 
-                        <GitHub color='white' size='3rem' />
-                    </a>
-                </div>
+                <a target='blank' href='https://api.whatsapp.com/send?phone=5571999666438'>
+                    <Whatsapp color='white' size='3rem' />
+                </a>
             </div>
         </div>
     )

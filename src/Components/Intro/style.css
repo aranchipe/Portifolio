@@ -44,13 +44,15 @@
 .intro-icons {
     display: flex;
     padding: 0 0.5rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .intro-icons img {
-    transform: scale(1.5);
+    width: 4rem;
     cursor: pointer;
 }
+
+
 
 .i-button {
     width: 7.5rem;
@@ -84,12 +86,12 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .intro-container {
         flex-direction: column-reverse;
         padding: 0 1.5rem;
         margin-top: 0;
-        margin-bottom: -17rem;
+        margin-bottom: -13rem;
     }
 
 

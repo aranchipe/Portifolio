@@ -3,6 +3,8 @@
     display: flex;
     padding: 2rem 3.5rem;
     margin-top: 6rem;
+    overflow-x: hidden !important;
+
 }
 
 .tecnologias .esquerda {
@@ -44,7 +46,7 @@
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
     .tecnologias {
         flex-direction: column;
         padding: 2rem 3.5rem;

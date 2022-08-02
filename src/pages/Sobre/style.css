@@ -79,8 +79,8 @@
 .foto-sobre {
     border-radius: 50%;
     margin-bottom: 2rem;
-    width: 6rem;
-    height: 6rem;
+    width: 7rem;
+    height: 7rem;
     border: 3px solid var(--blueCard);
 }
 
@@ -95,7 +95,12 @@
     transform: rotate(7deg)
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
+
+    .s-content {
+        margin-bottom: 5rem;
+    }
+
     .s-heading {
         padding: 1.5rem 1.5rem;
     }

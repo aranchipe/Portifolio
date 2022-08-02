@@ -1,5 +1,5 @@
 import './style.css'
-import perfil from '../../img/perfil.jpg'
+import perfil from '../../img/perfil.jpeg'
 import judo from '../../img/judo.png'
 import lpo from '../../img/lpo.jpeg'
 import me2 from '../../img/me2.jpeg'
