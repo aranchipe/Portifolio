@@ -1,7 +1,6 @@
 import './style.css'
 import Navbar from '../../Components/Navbar'
 import Intro from '../../Components/Intro'
-import Footer from '../../Components/Footer';
 
 function Home({ escuro, setEscuro, barra, setBarra }) {
     return (
