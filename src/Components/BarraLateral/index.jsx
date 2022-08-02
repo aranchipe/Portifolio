@@ -1,6 +1,6 @@
 import './style.css'
 import { useNavigate } from 'react-router-dom'
-import casa from '../../img/casa.png'
+import casa from '../../img/casa2.png'
 import react from '../../img/react.png'
 import portfolio from '../../img/portfolio.png'
 import sobre from '../../img/sobre.png'

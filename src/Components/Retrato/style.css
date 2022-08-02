@@ -1,44 +1,27 @@
 .retrato {
-    padding: 0.25rem;
+    padding: 1rem 0.5rem 3rem 0.5rem;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0.5rem;
-}
-
-.text {
-
-    margin-top: 0.25rem;
-    text-align: center;
-    font-size: 0.7rem;
-    font-weight: bold;
-    width: 6.5rem;
 }
 
 .retrato img {
-    width: 5rem;
+    width: 12.5rem;
+    height: 12.5rem;
 }
 
-.retrato span {
-    font-size: 0.7rem;
-}
 
 @media screen and (max-width: 900px) {
     .retrato {
-        padding: 0.3rem;
-        width: 5rem;
-    }
-
-    .text {
-
-        margin-top: 0.25rem;
-        font-size: 0.4rem;
-        font-weight: normal;
-        width: 2rem;
+        padding: 0.32rem 0.16rem 0.96rem 0.16rem;
     }
 
     .retrato img {
-        width: 3.5rem;
+        width: 4rem;
+        height: 4rem;
     }
+
+
 
 }

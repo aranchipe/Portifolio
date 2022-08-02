@@ -1,6 +1,6 @@
 import './style.css'
 import perfil from '../../img/perfil.jpeg'
-import judo from '../../img/judo.png'
+import judo from '../../img/judo.jpeg'
 import lpo from '../../img/lpo.jpeg'
 import me2 from '../../img/me2.jpeg'
 import Retrato from '../../Components/Retrato'
