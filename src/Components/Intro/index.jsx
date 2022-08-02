@@ -1,7 +1,4 @@
 import './style.css'
-import bluelinkedin from '../../img/blue-linkedin.png'
-import bluegithub from '../../img/blue-github.png'
-import bluewpp from '../../img/blue-wpp.png'
 import avatar from '../../img/avatar.png'
 import glassesimoji from '../../img/glassesimoji.png'
 import Floatingdiv from '../Floatingdiv'
