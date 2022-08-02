@@ -4,12 +4,11 @@
     padding: 2rem 3.5rem;
     margin-top: 6rem;
     overflow-x: hidden !important;
-
 }
 
 .tecnologias .esquerda {
     display: flex;
-    flex: 3;
+    flex: 4;
     flex-direction: column;
 }
 

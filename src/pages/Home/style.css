@@ -19,6 +19,10 @@
         animation: sumindo 0.2s both;
     }
 
+    .div-footer {
+        display: none;
+    }
+
     @keyframes sumindo {
         to {
             opacity: 0;

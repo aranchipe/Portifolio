@@ -15,13 +15,13 @@ function Sobre({ escuro, setEscuro, barra, setBarra }) {
             background: '',
             color: ''
         }}>
-            {<Navbar
+            <Navbar
                 escuro={escuro}
                 setEscuro={setEscuro}
                 page='sobre'
                 barra={barra}
                 setBarra={setBarra}
-            />}
+            />
 
             <div className="s-content">
 

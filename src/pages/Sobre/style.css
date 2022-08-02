@@ -1,7 +1,7 @@
 .s-container {
     min-height: 100vh;
+    max-width: 100vw;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 2rem;
     overflow-x: hidden;
@@ -12,14 +12,14 @@
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
+    width: 100%;
+
 }
 
 .s-heading {
-    align-items: center;
     align-self: start;
     margin-bottom: 8rem;
     padding: 0 6.5rem 2rem 6.5rem;
-
 }
 
 .s-heading>* {
@@ -32,8 +32,8 @@
 }
 
 .s-blur3 {
-    left: 60rem;
-    top: 35rem;
+    left: 60%;
+    top: 70%;
 }
 
 .s-blur2 {

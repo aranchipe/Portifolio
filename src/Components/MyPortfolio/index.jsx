@@ -15,11 +15,11 @@ function MyPortfolio({ escuro }) {
 
     function handleAntes(e) {
         e.preventDefault()
-        carrossel.current.scrollLeft -= 760
+        carrossel.current.scrollLeft -= 513
     }
     function handleProximo(e) {
         e.preventDefault()
-        carrossel.current.scrollLeft += 760
+        carrossel.current.scrollLeft += 513
 
     }
 
@@ -48,7 +48,7 @@ function MyPortfolio({ escuro }) {
                 <div className='carrossel' ref={carrossel}>
                     {projetos.map((item) => (
                         <div style={{ textAlign: ' center' }} key={item.id}>
-                            <img onClick={() => { setMostrarVideo(true); setVideo(item.video) }} style={{ height: '213px' }} src={item.src} alt='sidebar' />
+                            <img onClick={() => { setMostrarVideo(true); setVideo(item.video) }} style={{ height: '300px', width: '513px' }} src={item.src} alt='sidebar' />
 
                             <div style={{ marginBottom: '1rem' }} className='link'>
                                 <a target='blank' href={item.github}>
@@ -81,8 +81,6 @@ function MyPortfolio({ escuro }) {
                             id='my-player'
                             controls
                             preload='auto'
-                            /* width='380'
-                            height='220' */
                             poster={item.src}
                         >
                             <source src={item.video} type='video/mp4'></source>
