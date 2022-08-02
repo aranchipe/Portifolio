@@ -19,10 +19,11 @@
         top: 0;
         z-index: 1;
         width: 100%;
-        min-height: 100vh;
-        background-image: url('../../img/fundo-menu.png');
+        height: 100vh;
+        background-color: red;
+        /* background-image: url('../../img/fundo-menu.png');
         background-size: cover;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
     }
 
     .barra-fechada {
