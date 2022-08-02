@@ -37,8 +37,8 @@
 }
 
 .s-blur2 {
-    left: 10rem;
-    top: 15rem;
+    left: 10%;
+    top: 25%;
 }
 
 .card-sobre {
@@ -58,22 +58,22 @@
 
 .camp-bras {
     position: absolute;
-    left: 35rem;
+    left: 125%;
     top: 0;
     transform: rotate(7deg);
 }
 
 .camp-lpo {
     position: absolute;
-    left: -15rem;
-    top: -5rem;
+    left: -50%;
+    top: -16%;
     transform: rotate(3deg);
 }
 
 .cubos {
     position: absolute;
-    left: -20rem;
-    top: 20rem;
+    left: -65%;
+    top: 50%;
     transform: rotate(-9deg);
 }
 
@@ -91,8 +91,8 @@
 
 .campeonato-brasileiro {
     position: absolute;
-    left: 35rem;
-    top: 0rem;
+    left: 35%;
+    top: 0;
     transform: rotate(7deg)
 }
 
@@ -118,22 +118,22 @@
 
     .camp-bras {
         position: absolute;
-        left: 14.5rem;
-        top: -3.5rem;
+        left: 80%;
+        top: -10%;
         transform: rotate(-7deg);
     }
 
     .camp-lpo {
         position: absolute;
-        left: 0rem;
-        top: -3rem;
+        left: 0;
+        top: -8%;
         transform: rotate(7deg);
     }
 
     .cubos {
         position: absolute;
-        left: 0rem;
-        top: 27rem;
+        left: 0;
+        top: 100%;
         transform: rotate(-9deg);
     }
 }
