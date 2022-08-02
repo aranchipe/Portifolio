@@ -60,4 +60,25 @@
     .texto ul {
         margin-top: 0.5rem;
     }
+
+    .card-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .card {
+        width: 6.2rem;
+        height: 8.06rem;
+        padding: 0 .5rem;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .texto li {
+        font-size: 0.42rem;
+        margin: 0 auto;
+    }
 }

@@ -53,6 +53,7 @@
     box-shadow: var(--boxShadow);
     border-radius: 20px;
     position: relative;
+    text-align: center;
 }
 
 .camp-bras {
@@ -106,8 +107,8 @@
     }
 
     .card-sobre {
-        padding: 2rem;
-        width: 20rem;
+        padding: 1rem;
+        width: 18rem;
         margin-bottom: 5rem;
     }
 

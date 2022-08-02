@@ -5,7 +5,7 @@ function Card({ image, title, html, modal, txt1, txt2, txt3, txt4, txt5, semPont
         <div className={html && !modal ? 'html card' : modal ? ' card texto' : 'card'}>
 
             {!modal && <img src={image} alt='imagem3' />}
-            {!modal && <span>{title}</span>}
+            {!modal && <span className='card-title'>{title}</span>}
             {modal && title !== 'Github' && semPonto ?
                 <span>{txt1}</span>
                 : ''}

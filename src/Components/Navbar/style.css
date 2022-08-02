@@ -114,11 +114,6 @@
         width: 3rem;
     }
 
-
-    /* .menu {
-        display: block;
-    } */
-
     .menu-sumindo {
         animation: sumindo 0.2s both;
     }
@@ -127,5 +122,12 @@
         to {
             opacity: 0;
         }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .navbar-nome {
+        font-size: 0.6rem;
+        font-weight: bold;
     }
 }
