@@ -15,6 +15,7 @@ function MyTechnologies({ escuro }) {
     const [modalFigma, setModalFigma] = useState(false)
     const [modalGit, setModalGit] = useState(false)
     const [modalGithub, setModalGithub] = useState(false)
+
     return (
         <div className='tecnologias'>
             <div className="esquerda">
