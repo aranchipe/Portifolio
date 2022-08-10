@@ -24,6 +24,7 @@ function Contato({ escuro, setEscuro, barra, setBarra }) {
                 console.log(error.text);
             });
 
+
         setForm1({
             user_name: '',
             user_email: '',
