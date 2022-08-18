@@ -34,7 +34,6 @@ function Intro({ escuro }) {
                     <a target='blank' href='https://api.whatsapp.com/send?phone=5571999666438'>
                         <Whatsapp color='var(--orange)' size='4rem' />
                     </a>
-
                 </div>
             </div>
             <div className="intro-direita">

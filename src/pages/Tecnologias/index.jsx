@@ -16,7 +16,7 @@ function Tecnologias({ escuro, setEscuro, barra, setBarra }) {
         }}>
             <Navbar barra={barra} setBarra={setBarra} page='tecnologias' escuro={escuro} setEscuro={setEscuro} />
             <MyTechnologies escuro={escuro} />
-            <div style={{ overflowY: 'hidden', marginTop: '10rem' }}>
+            <div style={{ marginTop: '10rem' }}>
                 {<Footer />}
 
             </div>

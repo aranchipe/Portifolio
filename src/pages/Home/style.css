@@ -1,5 +1,5 @@
 .Home {
-    overflow: hidden;
+    overflow-x: hidden;
     color: var(--black);
     min-height: 100vh;
 }
