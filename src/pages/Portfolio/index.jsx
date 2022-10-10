@@ -2,6 +2,7 @@ import './style.css'
 import Navbar from '../../Components/Navbar'
 import MyPortfolio from '../../Components/MyPortfolio'
 import Footer from '../../Components/Footer'
+import Certificados from '../../Components/Certificados'
 
 function Portfolio({ escuro, setEscuro, barra, setBarra }) {
     return (
@@ -17,6 +18,8 @@ function Portfolio({ escuro, setEscuro, barra, setBarra }) {
 
             <MyPortfolio escuro={escuro} setEscuro={setEscuro}
             />
+
+            <Certificados escuro={escuro} setEscuro={setEscuro} />
             <div style={{ overflowY: 'hidden', marginTop: '10rem' }}>
                 <Footer />
             </div>

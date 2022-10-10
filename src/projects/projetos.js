@@ -5,6 +5,7 @@ import weAreCreatives from '../img/we-are-creatives.png'
 import desafio1 from '../img/desafio1.jpg'
 import mario from '../img/mario.png'
 import dinDin from '../img/din-din.JPG'
+import menteSa from '../img/mente-sa.JPG'
 
 import projetoFinalVideo from '../videos/projeto-final.mp4'
 import cubosFlixVideo from '../videos/cubosflix.mp4'
@@ -13,6 +14,8 @@ import cubosPlayerVideo from '../videos/cubos-player.mp4'
 import weAreCriativesVideo from '../videos/we-are-criatives.mp4'
 import desafio1Video from '../videos/desafio1.mp4'
 import marioVideo from '../videos/mario.mp4'
+import menteSaVideo from '../videos/mente-sa.mp4'
+
 export const projetos = [
     {
         id: 1,
@@ -31,30 +34,37 @@ export const projetos = [
     },
     {
         id: 3,
+        src: menteSa,
+        github: 'https://github.com/aranchipe/Mente-sa-Frontend',
+        back: 'https://github.com/aranchipe/Mente-Sa-Backend',
+        video: menteSaVideo
+    },
+    {
+        id: 4,
         src: cubosFlix,
         github: 'https://github.com/aranchipe/Cubos-Flix',
         video: cubosFlixVideo
     },
     {
-        id: 4,
+        id: 5,
         src: cubosPlayer,
         github: 'https://github.com/aranchipe/Cubos-Player',
         video: cubosPlayerVideo
     },
     {
-        id: 5,
+        id: 6,
         src: weAreCreatives,
         github: 'https://github.com/aranchipe/Projetos-HTML-CSS/tree/master/WE%20ARE%20CREATIVES',
         video: weAreCriativesVideo
     },
     {
-        id: 6,
+        id: 7,
         src: desafio1,
         github: 'https://github.com/aranchipe/Projeto-Final-Modulo-1',
         video: desafio1Video
     },
     {
-        id: 7,
+        id: 8,
         src: mario,
         github: 'https://github.com/aranchipe/mini-game-mario-react',
         video: marioVideo

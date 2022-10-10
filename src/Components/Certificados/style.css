@@ -1,0 +1,43 @@
+.certificados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificados span {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.certificados .seta:hover {
+    animation: portfolio .1s both linear;
+}
+
+.certificados img {
+    cursor: pointer;
+}
+
+.certificado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    gap: 2rem;
+}
+
+@keyframes portfolio {
+    to {
+        transform: scale(1.1);
+    }
+}
