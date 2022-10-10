@@ -19,6 +19,8 @@ function Portfolio({ escuro, setEscuro, barra, setBarra }) {
             <MyPortfolio escuro={escuro} setEscuro={setEscuro}
             />
 
+
+
             <Certificados escuro={escuro} setEscuro={setEscuro} />
             <div style={{ overflowY: 'hidden', marginTop: '10rem' }}>
                 <Footer />

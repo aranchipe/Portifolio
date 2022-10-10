@@ -31,7 +31,7 @@ function Certificados({ escuro, setEscuro }) {
 
             {showCertificado &&
                 <div className='certificado'>
-                    <img src={certificado} />
+                    <img src={certificado} alt='certificado' />
                     <img onClick={() => setShowCertificado(false)} src={!escuro ? closePreto : closeBranco} alt='close' />
 
                 </div>
