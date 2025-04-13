@@ -7,6 +7,7 @@ import htmlCss from '../../img/html-css.png'
 function MyTechnologies({ escuro }) {
     const [modalHtml, setModalHtml] = useState(false)
     const [modalReact, setModalReact] = useState(false)
+    const [modalNext, setModalNext] = useState(false)
     const [modalJs, setModalJs] = useState(false)
     const [modalNode, setModalNode] = useState(false)
     const [modalTs, setModalTs] = useState(false)
@@ -46,6 +47,42 @@ function MyTechnologies({ escuro }) {
                         txt4='utilização de hooks - useState, useEffect.'
                     />
 
+                </div>
+
+                <div onMouseOver={() => setModalNext(true)} onMouseLeave={() => setModalNext(false)} >
+                    <Card
+                        image={'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg'}
+                        title={'Next.js'}
+                        modal={modalNext}
+                        txt1='SSR e SSG para melhor performance'
+                        txt2='Rotas automáticas via estrutura de pastas'
+                        txt3='Criação de APIs com /api'
+                        txt4='Otimização de imagens e SEO integrado'
+                    />
+
+                </div>
+
+                <div onMouseOver={() => setModalNode(true)} onMouseLeave={() => setModalNode(false)}>
+                    <Card
+                        image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'}
+                        title={'Node js'}
+                        modal={modalNode}
+                        txt1='Criação de API Rest'
+                        txt2='Autenticação com JWT'
+                        txt3='criptografia com SecurePassword'
+                        txt4='criação de middlewares'
+                    />
+                </div>
+
+                <div onMouseOver={() => setModalEx(true)} onMouseLeave={() => setModalEx(false)} >
+                    <Card
+                        image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'}
+                        title={'Express'}
+                        modal={modalEx}
+                        semPonto={true}
+                        txt1='Criação de Api do zero desde a instalação do express até a criação
+                        de rotas utilizando os verbos HTTP.'
+                    />
                 </div>
 
 
@@ -96,29 +133,6 @@ function MyTechnologies({ escuro }) {
                 </div>
 
 
-                <div onMouseOver={() => setModalNode(true)} onMouseLeave={() => setModalNode(false)}>
-                    <Card
-                        image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'}
-                        title={'Node js'}
-                        modal={modalNode}
-                        txt1='Criação de API Rest'
-                        txt2='Autenticação com JWT'
-                        txt3='criptografia com SecurePassword'
-                        txt4='criação de middlewares'
-                    />
-                </div>
-
-
-                <div onMouseOver={() => setModalEx(true)} onMouseLeave={() => setModalEx(false)} >
-                    <Card
-                        image={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'}
-                        title={'Express'}
-                        modal={modalEx}
-                        semPonto={true}
-                        txt1='Criação de Api do zero desde a instalação do express até a criação
-                        de rotas utilizando os verbos HTTP.'
-                    />
-                </div>
 
                 <div onMouseOver={() => setModalFigma(true)} onMouseLeave={() => setModalFigma(false)}>
                     <Card
